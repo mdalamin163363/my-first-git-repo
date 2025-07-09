@@ -1,0 +1,39 @@
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 200px;
+}
+
+.hdprimary {
+    color: tomato;
+}
+.nav ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.listitems {
+    display: flex;
+    align-items: center;
+    
+    
+    
+}
+.btn-primary{
+    background-color: tomato;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    color: white;
+
+}
+.banner{
+    display: flex;
+    margin: 0px 35px 0px 200px;
+}
+.header{
+    background-image: url('../images/developer.png'), url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position:top left, bottom right;
+}
