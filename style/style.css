@@ -37,3 +37,59 @@
     background-repeat: no-repeat;
     background-position:top left, bottom right;
 }
+.about{
+    border: 2px solid;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 50px;
+   
+}
+.about-title{
+    align-items: center;
+}
+main{
+max-width: 1140px;
+    margin: 0px auto;
+}
+.item-description{
+    font-weight: bolder;
+}
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+.all-skills{
+    display: flex;
+    gap: 25px;
+}
+.skills{
+    align-items: center;
+    padding: 20px;
+    box-shadow: 0px 6px 50px 0px black;
+}
+.what-section{
+    text-align: center;
+    padding: 130px 150px;
+}
+.fotter{
+    display: flex;
+    margin-top: 150px;
+    background-color:#FFF8F3 ;
+    padding: 100px 50px;
+}
+footer input[type="text"],footer input[type="email"],footer textarea{
+    display: block;
+    height: 64px;
+    width: 100%;
+    background-color: white;
+    gap: 24px;
+    border-radius: 5px;
+    border: none;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+}
+.section-column{
+    align-items: center;
+    
+}
